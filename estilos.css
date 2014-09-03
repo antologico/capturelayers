@@ -1,0 +1,128 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#frameframe
+{
+	width: 100%; 
+	height: 100%;
+}
+
+#framediv
+{
+	bottom: 0px; 
+	right: 0px; 
+	left: 200px; 
+	position: absolute; 
+	top: 60px; 
+	background: #EEE; 
+	z-index: 0;
+}
+
+#menu
+{
+	bottom: 0px; 
+	left: 0px; 
+	width: 200px; 
+	position: absolute; 
+	top: 60px; 
+	padding: 10px; 
+	z-index: 1;
+}
+
+
+#menu #layername, #menu #layerclass
+{
+	width: 100%;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+#menu #layerbutton
+{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#frameframe body *:hover
+{
+	background-color: rgba(255,0,0, 0.5);
+	border: 2px solid rgba(255,0,0, 0.7);
+}
+
+#console
+{
+	top: 30px; 
+	left: 0px;
+	right: 0px; 
+	position: absolute; 
+	height: 30px; 
+	z-index: 1;
+}
+
+#console #layername
+{
+	background: #333;
+	color: #999;
+	height: 100%;
+	width: 100%;
+	padding: 3px;
+}
+
+
+
+#navbar
+{
+	top: 0px; 
+	left: 0px;
+	right: 0px; 
+	position: absolute; 
+	height: 30px; 
+	z-index: 1;
+	padding: 3px;
+}
+
+#navbar #navurl
+{
+	background: #eee;
+	color: #333;
+	height: 100%;
+	width: 100%;
+	padding: 3px;
+	border-radius: 5px;
+	padding-left: 30px;
+	background-image: url(nav-icon.png);
+	background-repeat: no-repeat;
+	background-position: 5px 3px;
+}
+
+
+#layerlist .urllist
+{
+	display: inline-block;
+	display: -webkit-box;
+	width: 100%;
+	overflow: hidden;
+	height: 25px;
+	-moz-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	background-color: #fff;
+	background-image: url(delete-icon.png);
+	background-repeat: no-repeat;
+	background-position: -21px 3px;
+	margin: 2px;
+	padding: 3px;
+	cursor: pointer;
+}
+
+
+#layerlist .urllist:hover
+{
+	background-color: #eee;
+	padding-left: 30px;
+	background-position: 3px 3px;
+}
